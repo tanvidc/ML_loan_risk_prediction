@@ -7,10 +7,10 @@ Six Machine Learning Algorithms are used to predict the creditworthiness of loan
 ![numtrees](https://github.com/tanvidc/ML_loan_risk_prediction/blob/master/Report/numtrees.png)
 Average error decreases as number of trees increase. After a threshold of about 25 trees there is no significant error reduction at the expense of computation.
 
-<img src="https://github.com/tanvidc/ML_loan_risk_prediction/blob/master/Report/feature_importance.PNG" width="50">
+<img src="https://github.com/tanvidc/ML_loan_risk_prediction/blob/master/Report/feature_importance.PNG" width="200">
 Normalized coefficients of features shaded by importance. Numbers close to 1 in red represent direct relation while negative numbers- blue represent inverse relation between the feature and the predicted outcome- creditworthiness. White represents almost no correlation.
 
-<img src="https://github.com/tanvidc/ML_loan_risk_prediction/blob/master/Report/acc_f1.png" width="150">
+<img src="https://github.com/tanvidc/ML_loan_risk_prediction/blob/master/Report/acc_f1.png" width="500">
 Comparison of accuracy and F1 score for both 75-25 split of train and test set and 10-fold cross validation
 
 ![forest_d3](https://github.com/tanvidc/ML_loan_risk_prediction/blob/master/Report/forest_d3.png)
