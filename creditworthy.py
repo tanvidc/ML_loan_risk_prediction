@@ -1,11 +1,12 @@
-
-# coding: utf-8
+# Hindsight 2020: There are many ways the code could've been written more efficiently. 
+# But leaving my first ML project with cute little 1K datapoints from 2016 be in the original state.
+# This might also not be the final version we'd had. Better at version control and data backup now. 
 
 #%% 1. IMPORT & FORMAT DATA
 import pandas as pd
 
-df = pd.read_csv('Training50.csv',sep=',')
-tst = pd.read_csv('Test50.csv',sep=',')
+df = pd.read_csv('Training75.csv',sep=',')
+tst = pd.read_csv('Test25.csv',sep=',')
 
 #Save the credit worthiness column as a separate numpy array
 y_train = df['Creditability'].values
