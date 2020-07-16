@@ -4,7 +4,7 @@ This was my very first ML project in 2016.
 
 Six Machine Learning Algorithms are used to predict the creditworthiness of loan seekers- Naïve Bayes, Linear Regression, Decision Trees, Random Forests, Extremely Randomized Trees and Support Vector Machines.  Parameters such as type of kernel, measure of information etc. are tuned to find the best performer. Predictions are cross validated by dividing data into training and test samples, accuracy of 70-75% is obtained. Relative feature importance gives an insight into characteristics of a person that would determine his/her borrowing and payment behavior. Algorithms are compared on the basis of computation time, stability, accuracy, F1 score and interpretability.
 
-![numtrees](https://github.com/tanvidc/ML_loan_risk_prediction/blob/master/Report/numtrees.png)
+<img src="https://github.com/tanvidc/ML_loan_risk_prediction/blob/master/Report/numtrees.png" width="500">
 Average error decreases as number of trees increase. After a threshold of about 25 trees there is no significant error reduction at the expense of computation.
 
 <img src="https://github.com/tanvidc/ML_loan_risk_prediction/blob/master/Report/feature_importance.PNG" width="200">
